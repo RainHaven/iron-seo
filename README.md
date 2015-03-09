@@ -10,7 +10,7 @@ $ meteor add rainhaven:iron-seo
 ## Iron SEO with Spiderable
 
 To really make your site search engine friendly, the spiderable package needs to be installed in your app.
-You can learn more about spiderable [here](https://atmospherejs.com/meteor/spiderable)
+You can learn more about spiderable [here](https://atmospherejs.com/meteor/spiderable).
 
 Note: If you're not using meteor deploy, you'll also want ensure that phantomjs is installed on your server.
 
