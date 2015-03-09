@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.2');
-  api.use(['underscore', 'iron:router']);
+  api.use(['underscore', 'iron:router@1.0.7']);
   api.addFiles('rainhaven:iron-seo.js');
 });
 
