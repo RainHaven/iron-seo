@@ -17,6 +17,7 @@ HomeController = RouteController.extend({
   // results in: <title>My Brand — A Compelling Web Page</title>
   ...
 ```
+
 **Return a title from the database.**
 
 If, for example, you have a Posts collection and you want the title tag to be a documents field from the database, that's easy to do with iron-seo. All title and meta tags are called from the context of `Iron.utils`, which means you have full access to `this.params`.
