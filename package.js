@@ -4,7 +4,7 @@ Package.describe({
   // Brief, one-line summary of the package.
   summary: 'Title and Meta Tags for Iron Router and Social Sharing',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/RainHaven/iron-seo',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
