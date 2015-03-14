@@ -53,7 +53,7 @@ var insertNewTags = function (metaNames, metaProperties) {
       if (_.isString(metaPropertyTags[prop])) {
         if (hasTag('property', prop)) {
           var selector = getSelector('property', prop);
-          $(selector).attr('content', metaNames[prop]);
+          $(selector).attr('content', metaPropertyTags[prop]);
         } else {
           $('head').append('<meta property="' + prop + '" content="' + metaPropertyTags[prop] + '" />');
         }
@@ -61,7 +61,7 @@ var insertNewTags = function (metaNames, metaProperties) {
       } else if (_.isFunction(metaPropertyTags[prop])) {
         if (hasTag('property', prop)) {
           var selector = getSelector('property', prop);
-          $(selector).attr('content', metaNames[prop].call(self));
+          $(selector).attr('content', metaPropertyTags[prop].call(self));
         } else {
           $('head').append('<meta property="' + prop + '" content="' + metaPropertyTags[prop].call(self) + '" />');
         }

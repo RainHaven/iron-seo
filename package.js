@@ -1,6 +1,6 @@
 Package.describe({
   name: 'rainhaven:iron-seo',
-  version: '1.0.0',
+  version: '1.0.1',
   // Brief, one-line summary of the package.
   summary: 'Title and Meta Tags for Iron Router and Social Sharing',
   // URL to the Git repository containing the source code for this package.
