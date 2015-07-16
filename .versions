@@ -24,7 +24,7 @@ iron:router@1.0.7
 iron:url@1.0.7
 jquery@1.11.3
 json@1.0.2
-local-test:rainhaven:iron-seo@1.0.0
+local-test:rainhaven:iron-seo@1.0.1
 logging@1.0.6
 meteor@1.1.4
 minifiers@1.1.3
@@ -32,7 +32,7 @@ minimongo@1.0.6
 mongo@1.0.11
 observe-sequence@1.0.4
 ordered-dict@1.0.2
-rainhaven:iron-seo@1.0.0
+rainhaven:iron-seo@1.0.1
 random@1.0.2
 reactive-dict@1.0.5
 reactive-var@1.0.4
